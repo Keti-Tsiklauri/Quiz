@@ -1,0 +1,55 @@
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: center; /* Center children vertically */
+  background-color: rgb(59, 77, 102);
+  width: 40vw;
+  height: 60vh;
+  border-radius: 4%;
+
+  margin: auto;
+}
+.fullScreen {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow: hidden; /* Prevent scrollbars */
+  background-color: rgba(49, 62, 81, 1); /* Adjust color as needed */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+}
+.quiz {
+  font-size: 24px;
+}
+.correct {
+  font-size: 20px;
+}
+img {
+  border-radius: 8px;
+  width: 35px;
+  height: 40px;
+  margin-right: 5px;
+}
+.p {
+  text-align: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.button {
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 8px 40px;
+  color: rgb(167, 41, 245);
+  margin-left: 30%;
+  margin-top: 20px;
+  font-weight: 500;
+  background-color: rgb(59, 77, 102);
+}
+.button:hover {
+  background-color: rgba(211, 148, 250, 255);
+}

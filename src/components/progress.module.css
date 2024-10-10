@@ -1,0 +1,31 @@
+/* progress.module.css */
+.progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  appearance: none;
+}
+
+.progress::-webkit-progress-bar {
+  border-radius: 10px;
+}
+
+.progress::-webkit-progress-value {
+  border-radius: 10px;
+}
+
+.darkMode::-webkit-progress-bar {
+  background-color: rgb(59, 77, 102); /* Dark mode background */
+}
+
+.darkMode::-webkit-progress-value {
+  background-color: rgb(167, 41, 245); /* Dark mode progress color */
+}
+
+.lightMode::-webkit-progress-bar {
+  background-color: rgb(224, 246, 250); /* Light mode background */
+}
+
+.lightMode::-webkit-progress-value {
+  background-color: rgb(167, 41, 245); /* Light mode progress color */
+}

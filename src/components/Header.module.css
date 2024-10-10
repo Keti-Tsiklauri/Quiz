@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.container :first-child {
+  background-color: aliceblue;
+  border-radius: 8px;
+  width: 30px;
+  height: 35px;
+}
+.container :last-child {
+  width: 10px;
+  height: 10px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+.p {
+  margin-left: 5px;
+}
+.img {
+  background-color: 0;
+}

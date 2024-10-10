@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  margin: 80px 60px;
+  justify-content: space-between;
+}
+.fullScreen {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow: hidden; /* Prevent scrollbars */
+  background-color: rgba(49, 62, 81, 1); /* Adjust color as needed */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+}
+
+.box1 {
+  width: 40vw;
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  position: relative; /* Ensure that the Progress component can be positioned at the bottom */
+}
+
+.box2 {
+  width: 45vw;
+}
+
+.box1 p {
+  margin: 0; /* Remove default margin from <p> tags */
+}
+
+.questionNumber {
+  color: rgb(171, 193, 225);
+  margin-bottom: 10px; /* Space between question number and question text */
+}
+
+.questionText {
+  margin-bottom: 50px; /* Ensure space for progress bar */
+  white-space: normal; /* Allow text to wrap */
+  overflow: hidden; /* Hide overflowed text */
+  text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+}
+
+.p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure .alpha and .icon are spaced apart */
+  border: solid rgba(0, 0, 0, 0);
+  background-color: rgb(59, 77, 102);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 0 10px; /* Add padding to create space inside the container */
+  height: 45px;
+  cursor: pointer;
+  overflow: hidden; /* Hide any overflow content */
+}
+
+.alpha {
+  flex-shrink: 0; /* Prevents shrinking */
+  margin-right: 10px; /* Adjust this margin as needed */
+}
+
+.elem {
+  flex-grow: 1; /* Takes up remaining space between .alpha and .icon */
+  text-align: left; /* Align text to the left */
+  color: white; /* Adjust the color as needed */
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Ensures that text that overflows is hidden */
+  text-overflow: ellipsis; /* Adds '...' if the text is too long */
+  margin-right: 10px; /* Adds space between text and icon */
+}
+
+.icon {
+  flex-shrink: 0; /* Prevents shrinking */
+  display: flex;
+  align-items: center;
+}
+
+.p:hover .alpha {
+  color: rgb(167, 41, 245);
+}
+
+.buttonContainer {
+  width: 100%;
+  cursor: pointer;
+}
+
+.progressContainer {
+  position: absolute; /* Position it at the bottom of the container */
+  bottom: 0;
+  width: 100%; /* Full width of the parent container */
+  margin-bottom: 14px;
+}
+.iconp {
+  padding: 0 5px;
+}

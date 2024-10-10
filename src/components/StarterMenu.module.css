@@ -1,0 +1,59 @@
+.fullScreen {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow: hidden; /* Prevent scrollbars */
+  background-color: rgba(49, 62, 81, 1); /* Adjust color as needed */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+}
+.imageDiv {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  background-color: rgba(60, 77, 103, 255);
+  margin-bottom: 20px;
+  border-radius: 10px;
+  color: aliceblue;
+  box-shadow: 8px solid black;
+  cursor: pointer;
+}
+.imageDiv img {
+  background-color: antiquewhite;
+  margin: 10px;
+  border-radius: 8px;
+}
+.starterDiv {
+  display: flex;
+  margin: 80px 20px;
+  justify-content: space-around;
+}
+p {
+  color: aliceblue;
+}
+.p :first-child {
+  color: #babdc3;
+  font-size: 50px;
+  font-weight: 200;
+  padding: 0;
+  margin-bottom: 0px;
+}
+.p :nth-child(2) {
+  color: #e8e9ec;
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+  padding-top: 0px;
+}
+.p :last-child {
+  color: #5f7087;
+  font-size: 18px;
+}
+.p {
+  padding-left: 10px;
+}
+.toggle {
+  margin-top: 50px;
+  margin-left: 85vw;
+}
